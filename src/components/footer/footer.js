@@ -1,6 +1,5 @@
-
+import Style from "../../components/footer/footer.css"
 // Header component 
-import FooterStyle from "../../components/footer/footer.css"
 
 function Footer(){
   

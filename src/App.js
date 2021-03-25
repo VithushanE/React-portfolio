@@ -1,22 +1,17 @@
-import Header from "./components/header/MainHeader";
-import Footer from "./components/footer/footer";
-import mainPage from "./pages/mainPage";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React from "react";
 
-function App (){
+import Navbar from "./components/Navbar/navbar";
 
-    return (
-        <div>
-      <Header/>
-        
-    <mainPage/>
+
+function App() {
+  return (
+  <div>   
+    <Navbar />
+ 
+
+    </div>
+
   
-        <Footer />
-
-        </div>
-    )
+  )
 }
-
 
 export default App;

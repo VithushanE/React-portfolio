@@ -1,4 +1,4 @@
-import Style from "../../components/footer/footer.css"
+import Style from "./footer.css"
 // Header component 
 
 function Footer(){

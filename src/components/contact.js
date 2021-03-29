@@ -2,45 +2,45 @@ import React from 'react';
 import CardItem from './Carditem'; 
 import './Cards.css';
 
-function Cards() {
+function Contact() {
     return (
         <div className='cards'>
-            <h1> Check out my projects!</h1>
+            <h1> Contact me</h1>
         <div className= "cards__container">
             <div className="cards__wrapper">
                 <ul >
                     <CardItem
-                    src="images/img-9.jpg"
-                    text="Explore the waterfall"
-                    label="Essential Finance"
+                    src="images/img_13.png"
+                    text="Phone number"
+                    label="4166167093"
                     path="/services"
                     />
                     <br></br>
                      <CardItem 
-                    src="images/img-8.jpg"
-                    text="Explore the waterfall"
-                    label="Javascript quiz"
+                    src="images/img-14.jpg"
+                    text="Linkedln"
+                    label="Linkedln bio"
                     path="/services"
                     />
                     
                     <CardItem 
-                    src="images/img-10.jpg"
-                    text="Explore the waterfall"
-                    label="Day planner Schedule"
+                    src="images/img-15.jpg"
+                    text="Github"
+                    label="Github"
                     path="/services"
                     />
 
                     <CardItem 
                     src="images/img-11.jpg"
-                    text="Explore the waterfall"
-                    label="Real estate agent"
+                    text="Resume"
+                    label="Resume"
                     path="/services"
                     />
 
                     <CardItem 
-                    src="images/img-12.jpg"
-                    text="Explore the waterfall"
-                    label="Budget planner"
+                    src="images/img-16.jpg"
+                    text="Resume"
+                    label="Resume"
                     path="/services"
                     />
                 </ul>
@@ -50,4 +50,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default Contact
